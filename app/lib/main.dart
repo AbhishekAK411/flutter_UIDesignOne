@@ -128,10 +128,37 @@ class MyApp extends StatelessWidget {
               Container(
                 margin: const EdgeInsets.only(top: 10.0),
                 width: double.infinity,
-                height: 160.0,
+                height: 200.0,
+                child: const Padding(
+                  padding: EdgeInsets.only(left: 30.0, top: 10.0, right: 25.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        'About',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 30.0,
+                        ),
+                      ),
+                      Text(
+                        'Senior System Engineer with over 2 years of experience in installing, configuring corporate computer networks and servers with expertise in Linux System Administration, developing applications in Java and Database Administration. Proficient at monitoring performance and investigating issues to keep architecture current and functioning properly. Follows ways to enhance performance and improve usability.',
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 13.0,
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Container(
+                width: double.infinity,
+                height: 200.0,
                 color: Colors.white,
               ),
-              Container(),
               Container(),
             ],
           ),
