@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                 margin: const EdgeInsets.only(top: 10.0),
                 width: double.infinity,
                 height: 200.0,
-                child: Row( 
+                child: Row(
                   //* Insert image over here
                   children: <Widget>[
                     Container(
@@ -125,7 +125,12 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(),
+              Container(
+                margin: const EdgeInsets.only(top: 10.0),
+                width: double.infinity,
+                height: 160.0,
+                color: Colors.white,
+              ),
               Container(),
               Container(),
             ],
